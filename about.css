@@ -1,8 +1,4 @@
-.aboutMe{
-    text-align: justify;
-    font-size:x-large;
-    margin-top: initial;
-}  
+
 body,html{
    /* background-image: url('https://www.itl.cat/pngfile/big/210-2101051_dark-web-scanning-background-image-for-website-of.jpg');*/
    background-image:url('images/aboutme1.jpg');
@@ -19,7 +15,10 @@ body,html{
     text-decoration: none;
     font-size: 17px;
   }
-  
+  .topnav {
+    background-color: rgb(13, 70, 124);
+    overflow: hidden;
+  }
   /* Change the color of links on hover */
   .topnav a:hover {
     background-color: #ddd;
@@ -30,4 +29,26 @@ body,html{
   .topnav a.active {
     background-color:rgb(69, 174, 223);
     color: white;
+  }
+.card-body{
+  text-indent: 50%;
+}
+  .card-text{
+  text-indent: 50%;
+  font-size:x-large;
+  text-align: justify;
+  text-justify: inter-word;
+  text-shadow: 2px 2px #09035a;
+  }
+ 
+  .card{
+    background-color: rgb(24, 21, 70);
+    width: 30rem; 
+    height:33rem; 
+    color:rgb(147, 220, 238); 
+    border-radius: 20px; 
+    margin-left: 10%; 
+    margin-right: 20%;
+    margin-top: 2rem;
+    opacity:0.5;
   }
